@@ -1,0 +1,35 @@
+^text/x-rundeck-log-v2.0^
+^2020-09-02T10:02:24Z|stepbegin||{node=10.10.14.114|step=1|stepctx=1|user=admin}|^
+^2020-09-02T10:02:24Z|nodebegin||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|total 2480^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck   20235 Sep  2 10:02 rundeck.access.log^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.access.log.2020-07-13^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck   10425 Jul 14 08:39 rundeck.access.log.2020-07-14^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck  296753 Sep  1 10:49 rundeck.access.log.2020-09-01^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.api.log^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck  572725 Sep  2 10:02 rundeck.audit.log^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.audit.log.2020-07-13^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck  102673 Jul 14 08:39 rundeck.audit.log.2020-07-14^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck 1474111 Sep  1 10:49 rundeck.audit.log.2020-09-01^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck    1401 Sep  2 10:02 rundeck.executions.log^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.executions.log.2020-07-13^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck    2019 Sep  1 09:21 rundeck.executions.log.2020-09-01^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|/bin/sh: 1: sudo: not found^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck     702 Sep  2 10:01 rundeck.jobs.log^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.jobs.log.2020-07-13^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck     817 Sep  1 09:21 rundeck.jobs.log.2020-09-01^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck    2563 Sep  2 10:02 rundeck.log^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck    1042 Jul 13 22:04 rundeck.log.2020-07-13^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck    1563 Jul 14 08:20 rundeck.log.2020-07-14^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck    4818 Sep  1 09:21 rundeck.log.2020-09-01^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.options.log^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck     848 Sep  1 09:19 rundeck.storage.log^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.storage.log.2020-07-13^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck     550 Jul 14 08:37 rundeck.storage.log.2020-07-14^
+^2020-09-02T10:02:24Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|/var/log/rundeck^
+^2020-09-02T10:02:24Z||ERROR|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Result: 127^
+^2020-09-02T10:02:24Z||ERROR|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Failed: NonZeroResultCode: Result code was 127^
+^2020-09-02T10:02:24Z|nodeend||{executionState=FAILED|failureReason=NonZeroResultCode|node=10.10.14.114|resultCode=127|step=1|stepctx=1|user=rundeck}|Result code was 127^
+^2020-09-02T10:02:24Z|stepend||{executionState=FAILED|failedNodes=10.10.14.114|failureReason=NodeDispatchFailure|node=10.10.14.114|step=1|stepctx=1|user=admin}|Node dispatch failed^
+^2020-09-02T10:02:24Z||ERROR|{node=10.10.14.114|user=admin}|Execution failed: 14: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 127]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 127]}, status: failed]^
+^END^

@@ -1,0 +1,11 @@
+^text/x-rundeck-log-v2.0^
+^2020-09-02T12:20:40Z|stepbegin||{node=10.10.14.114|step=1|stepctx=1|user=admin}|^
+^2020-09-02T12:20:40Z|nodebegin||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|^
+^2020-09-02T12:20:40Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|/^
+^2020-09-02T12:20:40Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|touch: cannot touch '/home/rundeck/test.txt': No such file or directory^
+^2020-09-02T12:20:41Z||ERROR|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Result: 1^
+^2020-09-02T12:20:41Z||ERROR|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Failed: NonZeroResultCode: Result code was 1^
+^2020-09-02T12:20:41Z|nodeend||{executionState=FAILED|failureReason=NonZeroResultCode|node=10.10.14.114|resultCode=1|step=1|stepctx=1|user=rundeck}|Result code was 1^
+^2020-09-02T12:20:41Z|stepend||{executionState=FAILED|failedNodes=10.10.14.114|failureReason=NodeDispatchFailure|node=10.10.14.114|step=1|stepctx=1|user=admin}|Node dispatch failed^
+^2020-09-02T12:20:41Z||ERROR|{node=10.10.14.114|user=admin}|Execution failed: 36: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 1]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 1]}, status: failed]^
+^END^

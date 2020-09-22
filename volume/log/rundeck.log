@@ -1,0 +1,53 @@
+2020-09-22 08:28:45,903 [main] INFO  grails.app.conf.BootStrap - Starting Rundeck 2.6.2-1...
+2020-09-22 08:28:45,904 [main] INFO  grails.app.conf.BootStrap - using rdeck.base config property: /var/lib/rundeck
+2020-09-22 08:28:45,913 [main] INFO  grails.app.conf.BootStrap - loaded configuration: /etc/rundeck/framework.properties
+2020-09-22 08:28:46,569 [main] INFO  grails.app.conf.BootStrap - RSS feeds disabled
+2020-09-22 08:28:46,590 [main] INFO  grails.app.conf.BootStrap - Rundeck is ACTIVE: executions can be run.
+2020-09-22 08:44:18,983 [qtp703618281-28] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:37
+2020-09-22 08:44:20,892 [quartzScheduler_Worker-1] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 37: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 127]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 127]}, status: failed]
+2020-09-22 08:48:56,689 [qtp703618281-32] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:38
+2020-09-22 08:48:58,731 [quartzScheduler_Worker-2] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 38: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: AuthenticationFailure: Authentication failure connecting to node: "10.10.14.120". Password incorrect.]}, Node failures: {10.10.14.120=[AuthenticationFailure: Authentication failure connecting to node: "10.10.14.120". Password incorrect.]}, status: failed]
+2020-09-22 08:51:30,032 [qtp703618281-31] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:39
+2020-09-22 08:51:32,838 [quartzScheduler_Worker-3] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 39: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: AuthenticationFailure: Authentication failure connecting to node: "10.10.14.120". Password incorrect.]}, Node failures: {10.10.14.120=[AuthenticationFailure: Authentication failure connecting to node: "10.10.14.120". Password incorrect.]}, status: failed]
+2020-09-22 08:54:45,806 [main] INFO  grails.app.conf.BootStrap - Starting Rundeck 2.6.2-1...
+2020-09-22 08:54:45,807 [main] INFO  grails.app.conf.BootStrap - using rdeck.base config property: /var/lib/rundeck
+2020-09-22 08:54:45,816 [main] INFO  grails.app.conf.BootStrap - loaded configuration: /etc/rundeck/framework.properties
+2020-09-22 08:54:46,382 [main] INFO  grails.app.conf.BootStrap - RSS feeds disabled
+2020-09-22 08:54:46,401 [main] INFO  grails.app.conf.BootStrap - Rundeck is ACTIVE: executions can be run.
+2020-09-22 08:56:45,182 [qtp703618281-32] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:40
+2020-09-22 08:56:49,008 [quartzScheduler_Worker-1] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 40: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: NonZeroResultCode: Remote command failed with exit status 1]}, Node failures: {10.10.14.120=[NonZeroResultCode: Remote command failed with exit status 1]}, status: failed]
+2020-09-22 09:00:38,561 [qtp703618281-32] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:41
+2020-09-22 09:00:39,502 [quartzScheduler_Worker-2] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 41: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: NonZeroResultCode: Remote command failed with exit status 1]}, Node failures: {10.10.14.120=[NonZeroResultCode: Remote command failed with exit status 1]}, status: failed]
+2020-09-22 09:02:02,077 [qtp703618281-28] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:42
+2020-09-22 09:02:03,205 [quartzScheduler_Worker-3] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 42: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: NonZeroResultCode: Remote command failed with exit status 1]}, Node failures: {10.10.14.120=[NonZeroResultCode: Remote command failed with exit status 1]}, status: failed]
+2020-09-22 09:06:17,145 [qtp703618281-30] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:43
+2020-09-22 09:06:18,135 [quartzScheduler_Worker-4] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 43: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: NonZeroResultCode: Remote command failed with exit status 2]}, Node failures: {10.10.14.120=[NonZeroResultCode: Remote command failed with exit status 2]}, status: failed]
+2020-09-22 09:07:20,029 [qtp703618281-33] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:44
+2020-09-22 09:08:22,136 [quartzScheduler_Worker-5] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 44: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: Unknown: java.lang.InterruptedException]}, Node failures: {10.10.14.120=[Unknown: java.lang.InterruptedException]}, status: failed]
+2020-09-22 09:09:15,483 [qtp703618281-28] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:45
+2020-09-22 09:09:16,504 [quartzScheduler_Worker-6] INFO  grails.app.services.rundeck.services.ExecutionUtilService - Execution successful: 45
+2020-09-22 09:09:16,556 [quartzScheduler_Worker-6] INFO  grails.app.services.rundeck.services.ExecutionService - updated scheduled Execution
+2020-09-22 09:10:40,667 [qtp703618281-30] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:46
+2020-09-22 09:10:41,467 [quartzScheduler_Worker-7] INFO  grails.app.services.rundeck.services.ExecutionUtilService - Execution successful: 46
+2020-09-22 09:10:41,587 [quartzScheduler_Worker-7] INFO  grails.app.services.rundeck.services.ExecutionService - updated scheduled Execution
+2020-09-22 09:20:10,197 [qtp703618281-33] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:47
+2020-09-22 09:20:10,926 [quartzScheduler_Worker-8] INFO  grails.app.services.rundeck.services.ExecutionUtilService - Execution successful: 47
+2020-09-22 09:20:11,764 [quartzScheduler_Worker-8] INFO  grails.app.services.rundeck.services.ExecutionService - updated scheduled Execution
+2020-09-22 09:57:11,104 [main] INFO  grails.app.conf.BootStrap - Starting Rundeck 2.6.2-1...
+2020-09-22 09:57:11,107 [main] INFO  grails.app.conf.BootStrap - using rdeck.base config property: /var/lib/rundeck
+2020-09-22 09:57:11,129 [main] INFO  grails.app.conf.BootStrap - loaded configuration: /etc/rundeck/framework.properties
+2020-09-22 09:57:11,709 [main] INFO  grails.app.conf.BootStrap - RSS feeds disabled
+2020-09-22 09:57:11,729 [main] INFO  grails.app.conf.BootStrap - Rundeck is ACTIVE: executions can be run.
+2020-09-22 09:59:25,619 [qtp703618281-30] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:48
+2020-09-22 09:59:45,465 [quartzScheduler_Worker-1] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 48: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: ConnectionFailure: No route to host (Host unreachable)]}, Node failures: {10.10.14.120=[ConnectionFailure: No route to host (Host unreachable)]}, status: failed]
+2020-09-22 10:06:15,122 [qtp703618281-33] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:49
+2020-09-22 10:06:16,380 [quartzScheduler_Worker-2] INFO  grails.app.services.rundeck.services.ExecutionUtilService - Execution successful: 49
+2020-09-22 10:06:16,558 [quartzScheduler_Worker-2] INFO  grails.app.services.rundeck.services.ExecutionService - updated scheduled Execution
+2020-09-22 10:07:40,151 [main] INFO  grails.app.conf.BootStrap - Starting Rundeck 2.6.2-1...
+2020-09-22 10:07:40,151 [main] INFO  grails.app.conf.BootStrap - using rdeck.base config property: /var/lib/rundeck
+2020-09-22 10:07:40,162 [main] INFO  grails.app.conf.BootStrap - loaded configuration: /etc/rundeck/framework.properties
+2020-09-22 10:07:40,769 [main] INFO  grails.app.conf.BootStrap - RSS feeds disabled
+2020-09-22 10:07:40,790 [main] INFO  grails.app.conf.BootStrap - Rundeck is ACTIVE: executions can be run.
+2020-09-22 10:08:49,856 [qtp703618281-33] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:2:50
+2020-09-22 10:08:52,692 [quartzScheduler_Worker-1] INFO  grails.app.services.rundeck.services.ExecutionUtilService - Execution successful: 50
+2020-09-22 10:08:52,839 [quartzScheduler_Worker-1] INFO  grails.app.services.rundeck.services.ExecutionService - updated scheduled Execution

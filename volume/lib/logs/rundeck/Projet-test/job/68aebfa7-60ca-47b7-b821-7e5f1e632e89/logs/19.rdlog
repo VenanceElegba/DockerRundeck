@@ -1,0 +1,10 @@
+^text/x-rundeck-log-v2.0^
+^2020-09-02T10:26:08Z|stepbegin||{node=10.10.14.114|step=1|stepctx=1|user=admin}|^
+^2020-09-02T10:26:08Z|nodebegin||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|^
+^2020-09-02T10:26:08Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|/bin/sh: 1: sudo: not found^
+^2020-09-02T10:26:08Z||ERROR|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Result: 127^
+^2020-09-02T10:26:08Z||ERROR|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Failed: NonZeroResultCode: Result code was 127^
+^2020-09-02T10:26:08Z|nodeend||{executionState=FAILED|failureReason=NonZeroResultCode|node=10.10.14.114|resultCode=127|step=1|stepctx=1|user=rundeck}|Result code was 127^
+^2020-09-02T10:26:08Z|stepend||{executionState=FAILED|failedNodes=10.10.14.114|failureReason=NodeDispatchFailure|node=10.10.14.114|step=1|stepctx=1|user=admin}|Node dispatch failed^
+^2020-09-02T10:26:08Z||ERROR|{node=10.10.14.114|user=admin}|Execution failed: 19: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 127]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 127]}, status: failed]^
+^END^

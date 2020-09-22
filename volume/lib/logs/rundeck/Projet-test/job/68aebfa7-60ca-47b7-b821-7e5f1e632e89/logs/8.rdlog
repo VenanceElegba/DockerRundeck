@@ -1,0 +1,10 @@
+^text/x-rundeck-log-v2.0^
+^2020-09-01T09:21:50Z|stepbegin||{node=10.10.14.114|step=1|stepctx=1|user=admin}|^
+^2020-09-01T09:21:50Z|nodebegin||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|^
+^2020-09-01T09:21:50Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|/bin/sh: 1: cd: can't cd to /home/osee/^
+^2020-09-01T09:21:50Z||ERROR|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Result: 2^
+^2020-09-01T09:21:50Z||ERROR|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Failed: NonZeroResultCode: Result code was 2^
+^2020-09-01T09:21:50Z|nodeend||{executionState=FAILED|failureReason=NonZeroResultCode|node=10.10.14.114|resultCode=2|step=1|stepctx=1|user=rundeck}|Result code was 2^
+^2020-09-01T09:21:50Z|stepend||{executionState=FAILED|failedNodes=10.10.14.114|failureReason=NodeDispatchFailure|node=10.10.14.114|step=1|stepctx=1|user=admin}|Node dispatch failed^
+^2020-09-01T09:21:50Z||ERROR|{node=10.10.14.114|user=admin}|Execution failed: 8: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 2]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 2]}, status: failed]^
+^END^

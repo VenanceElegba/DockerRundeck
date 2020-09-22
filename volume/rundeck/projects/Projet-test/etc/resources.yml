@@ -1,0 +1,10 @@
+10.10.14.114:
+  tags: ''
+  osFamily: unix
+  username: rundeck
+  osArch: amd64
+  osVersion: 3.16.0-4-amd64
+  description: Rundeck server node
+  nodename: 10.10.14.114
+  hostname: 10.10.14.114
+  osName: Linux

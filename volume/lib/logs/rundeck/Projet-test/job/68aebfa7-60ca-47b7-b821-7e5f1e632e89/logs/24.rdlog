@@ -1,0 +1,62 @@
+^text/x-rundeck-log-v2.0^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|user=admin}|[workflow] Begin execution: rundeck-workflow-node-first context: null^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|user=admin}|preparing for sequential execution on 1 nodes^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|user=admin}|Executing command on node: 10.10.14.114, NodeEntryImpl{tags=[], attributes={osFamily=unix, tags=, username=rundeck, osVersion=3.16.0-4-amd64, osArch=amd64, description=Rundeck server node, hostname=10.10.14.114, nodename=10.10.14.114, osName=Linux}, project='null'}^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|user=admin}|NodeSet: MultiNodeSelector{nodenames=[10.10.14.114]}^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|user=admin}|Workflow: com.dtolabs.rundeck.core.execution.workflow.StepFirstWorkflowStrategy$stepFirstWrapper@3276ef9f^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|user=admin}|data context:  {node={tags=, username=rundeck, os-version=3.16.0-4-amd64, description=Rundeck server node, name=10.10.14.114, os-arch=amd64, hostname=10.10.14.114, os-name=Linux, os-family=unix}, job={loglevel=DEBUG, wasRetry=false, url=https://10.10.14.114:4443/project/Projet-test/execution/follow/24, id=68aebfa7-60ca-47b7-b821-7e5f1e632e89, project=Projet-test, username=admin, retryAttempt=0, user.name=admin, name=sudo-job-test, serverUUID=null, group=null, execid=24, serverUrl=https://10.10.14.114:4443/}, option={}}^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|[workflow] Begin step: 1,NodeDispatch^
+^2020-09-02T10:59:27Z|stepbegin||{node=10.10.14.114|step=1|stepctx=1|user=admin}|^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|1: Workflow step executing: com.dtolabs.rundeck.execution.ExecutionItemFactory$4@2ee501c8^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|preparing for sequential execution on 1 nodes^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|Executing command on node: 10.10.14.114, NodeEntryImpl{tags=[], attributes={osFamily=unix, tags=, username=rundeck, osVersion=3.16.0-4-amd64, osArch=amd64, description=Rundeck server node, hostname=10.10.14.114, nodename=10.10.14.114, osName=Linux}, project='null'}^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|[workflow] beginExecuteNodeStep(10.10.14.114): NodeDispatch: com.dtolabs.rundeck.execution.ExecutionItemFactory$4@2ee501c8^
+^2020-09-02T10:59:27Z|nodebegin||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Current OS is Linux^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Adding reference: ant.PropertyHelper^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Project base dir set to: /var/log/rundeck^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_JOB_URL=https://10.10.14.114:4443/project/Projet-test/execution/follow/24^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_NODE_DESCRIPTION=Rundeck server node^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_NODE_OS_ARCH=amd64^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_JOB_NAME=sudo-job-test^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_JOB_WASRETRY=false^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_JOB_ID=68aebfa7-60ca-47b7-b821-7e5f1e632e89^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_JOB_RETRYATTEMPT=0^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_JOB_EXECID=24^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_NODE_HOSTNAME=10.10.14.114^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_NODE_TAGS=^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_JOB_SERVERURL=https://10.10.14.114:4443/^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_NODE_NAME=10.10.14.114^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_JOB_PROJECT=Projet-test^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_JOB_USER_NAME=admin^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_JOB_LOGLEVEL=DEBUG^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_NODE_OS_VERSION=3.16.0-4-amd64^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_NODE_USERNAME=rundeck^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_NODE_OS_FAMILY=unix^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_JOB_USERNAME=admin^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting environment variable: RD_NODE_OS_NAME=Linux^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Executing '/bin/sh' with arguments:
+'-c'
+'systemctl status ssh'
+
+The ' characters around the executable and arguments are
+not part of the command.^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Execute:Java13CommandLauncher: Executing '/bin/sh' with arguments:
+'-c'
+'systemctl status ssh'
+
+The ' characters around the executable and arguments are
+not part of the command.^
+^2020-09-02T10:59:27Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Failed to get D-Bus connection: Unknown error -1^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Setting project property: 1599044367071.node.10.10.14.114.LocalNodeExecutor.result -> 1^
+^2020-09-02T10:59:27Z||ERROR|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Result: 1^
+^2020-09-02T10:59:27Z||ERROR|{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|Failed: NonZeroResultCode: Result code was 1^
+^2020-09-02T10:59:27Z|nodeend||{executionState=FAILED|failureReason=NonZeroResultCode|node=10.10.14.114|resultCode=1|step=1|stepctx=1|user=rundeck}|Result code was 1^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|[workflow] finishExecuteNodeStep(10.10.14.114): NodeDispatch: NonZeroResultCode: Result code was 1^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|1: Workflow step finished, result: Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 1]^
+^2020-09-02T10:59:27Z|stepend||{executionState=FAILED|failedNodes=10.10.14.114|failureReason=NodeDispatchFailure|node=10.10.14.114|step=1|stepctx=1|user=admin}|Node dispatch failed^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|user=admin}|[workflow] Finish step: 1,NodeDispatch^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|user=admin}|[workflow] Finish execution:  rundeck-workflow-node-first: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 1]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 1]}, status: failed]^
+^2020-09-02T10:59:27Z||VERBOSE|{node=10.10.14.114|user=admin}|[Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 1]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 1]}, status: failed]^
+^2020-09-02T10:59:27Z||ERROR|{node=10.10.14.114|user=admin}|Execution failed: 24: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 1]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 1]}, status: failed]^
+^END^

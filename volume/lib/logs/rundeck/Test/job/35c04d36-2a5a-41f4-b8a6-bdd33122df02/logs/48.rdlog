@@ -1,0 +1,30 @@
+^text/x-rundeck-log-v2.0^
+^2020-09-22T09:59:26Z||VERBOSE|{node=10.10.14.114|user=admin}|[workflow] Begin execution: rundeck-workflow-node-first context: null^
+^2020-09-22T09:59:26Z||VERBOSE|{node=10.10.14.114|user=admin}|preparing for sequential execution on 1 nodes^
+^2020-09-22T09:59:26Z||VERBOSE|{node=10.10.14.114|user=admin}|Executing command on node: 10.10.14.120, NodeEntryImpl{tags=[], attributes={osFamily=unix, tags=, username=venance, osVersion=3.16.0-4-amd64, osArch=amd64, description=Rundeck server node, hostname=10.10.14.120, nodename=10.10.14.120, osName=Linux}, project='null'}^
+^2020-09-22T09:59:26Z||VERBOSE|{node=10.10.14.114|user=admin}|NodeSet: MultiNodeSelector{nodenames=[10.10.14.120]}^
+^2020-09-22T09:59:26Z||VERBOSE|{node=10.10.14.114|user=admin}|Workflow: com.dtolabs.rundeck.core.execution.workflow.StepFirstWorkflowStrategy$stepFirstWrapper@7d41a679^
+^2020-09-22T09:59:26Z||VERBOSE|{node=10.10.14.114|user=admin}|data context:  {node={tags=, username=venance, os-version=3.16.0-4-amd64, description=Rundeck server node, name=10.10.14.120, os-arch=amd64, hostname=10.10.14.120, os-name=Linux, os-family=unix}, job={loglevel=DEBUG, wasRetry=false, url=https://10.10.14.114:4443/project/Test/execution/follow/48, id=35c04d36-2a5a-41f4-b8a6-bdd33122df02, project=Test, username=admin, retryAttempt=0, user.name=admin, name=forsudotest, serverUUID=null, group=null, execid=48, serverUrl=https://10.10.14.114:4443/}, option={}}^
+^2020-09-22T09:59:26Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|[workflow] Begin step: 1,NodeDispatch^
+^2020-09-22T09:59:26Z|stepbegin||{node=10.10.14.114|step=1|stepctx=1|user=admin}|^
+^2020-09-22T09:59:26Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|1: Workflow step executing: com.dtolabs.rundeck.execution.ExecutionItemFactory$4@144f492e^
+^2020-09-22T09:59:26Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|preparing for sequential execution on 1 nodes^
+^2020-09-22T09:59:26Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|Executing command on node: 10.10.14.120, NodeEntryImpl{tags=[], attributes={osFamily=unix, tags=, username=venance, osVersion=3.16.0-4-amd64, osArch=amd64, description=Rundeck server node, hostname=10.10.14.120, nodename=10.10.14.120, osName=Linux}, project='null'}^
+^2020-09-22T09:59:26Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|[workflow] beginExecuteNodeStep(10.10.14.120): NodeDispatch: com.dtolabs.rundeck.execution.ExecutionItemFactory$4@144f492e^
+^2020-09-22T09:59:26Z|nodebegin||{node=10.10.14.120|step=1|stepctx=1|user=venance}|^
+^2020-09-22T09:59:27Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Using ssh password storage path: keys/serveur8/serveur8^
+^2020-09-22T09:59:27Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Starting SSH Connection: venance@10.10.14.120 (10.10.14.120)^
+^2020-09-22T09:59:27Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Set timeout to 0^
+^2020-09-22T09:59:27Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Connecting to 10.10.14.120:22^
+^2020-09-22T09:59:27Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Connecting to 10.10.14.120 port 22^
+^2020-09-22T09:59:45Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|No route to host (Host unreachable)^
+^2020-09-22T09:59:45Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Failed: ConnectionFailure: No route to host (Host unreachable)^
+^2020-09-22T09:59:45Z|nodeend||{executionState=FAILED|failureReason=ConnectionFailure|node=10.10.14.120|resultCode=-1|step=1|stepctx=1|user=venance}|No route to host (Host unreachable)^
+^2020-09-22T09:59:45Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|[workflow] finishExecuteNodeStep(10.10.14.120): NodeDispatch: ConnectionFailure: No route to host (Host unreachable)^
+^2020-09-22T09:59:45Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|1: Workflow step finished, result: Dispatch failed on 1 nodes: [10.10.14.120: ConnectionFailure: No route to host (Host unreachable)]^
+^2020-09-22T09:59:45Z|stepend||{executionState=FAILED|failedNodes=10.10.14.120|failureReason=NodeDispatchFailure|node=10.10.14.114|step=1|stepctx=1|user=admin}|Node dispatch failed^
+^2020-09-22T09:59:45Z||VERBOSE|{node=10.10.14.114|user=admin}|[workflow] Finish step: 1,NodeDispatch^
+^2020-09-22T09:59:45Z||VERBOSE|{node=10.10.14.114|user=admin}|[workflow] Finish execution:  rundeck-workflow-node-first: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: ConnectionFailure: No route to host (Host unreachable)]}, Node failures: {10.10.14.120=[ConnectionFailure: No route to host (Host unreachable)]}, status: failed]^
+^2020-09-22T09:59:45Z||VERBOSE|{node=10.10.14.114|user=admin}|[Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: ConnectionFailure: No route to host (Host unreachable)]}, Node failures: {10.10.14.120=[ConnectionFailure: No route to host (Host unreachable)]}, status: failed]^
+^2020-09-22T09:59:45Z||ERROR|{node=10.10.14.114|user=admin}|Execution failed: 48: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: ConnectionFailure: No route to host (Host unreachable)]}, Node failures: {10.10.14.120=[ConnectionFailure: No route to host (Host unreachable)]}, status: failed]^
+^END^

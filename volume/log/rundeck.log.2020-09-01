@@ -1,0 +1,24 @@
+2020-09-01 07:43:24,666 [main] INFO  grails.app.conf.BootStrap - Starting Rundeck 2.6.2-1...
+2020-09-01 07:43:24,667 [main] INFO  grails.app.conf.BootStrap - using rdeck.base config property: /var/lib/rundeck
+2020-09-01 07:43:24,676 [main] INFO  grails.app.conf.BootStrap - loaded configuration: /etc/rundeck/framework.properties
+2020-09-01 07:43:25,226 [main] INFO  grails.app.conf.BootStrap - RSS feeds disabled
+2020-09-01 07:43:25,249 [main] INFO  grails.app.conf.BootStrap - Rundeck is ACTIVE: executions can be run.
+2020-09-01 08:15:31,046 [qtp703618281-64] WARN  grails.app.controllers.rundeck.controllers.ScheduledExecutionController - null
+2020-09-01 08:17:16,407 [qtp703618281-68] WARN  grails.app.controllers.rundeck.controllers.ScheduledExecutionController - Property [{0}] of class [{1}] with value [{2}] does not pass custom validation
+2020-09-01 08:18:09,002 [qtp703618281-33] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:1:1
+2020-09-01 08:18:10,669 [quartzScheduler_Worker-1] INFO  grails.app.services.rundeck.services.ExecutionUtilService - Execution successful: 1
+2020-09-01 08:18:11,045 [quartzScheduler_Worker-1] INFO  grails.app.services.rundeck.services.ExecutionService - updated scheduled Execution
+2020-09-01 08:20:45,357 [qtp703618281-67] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:1:2
+2020-09-01 08:20:45,889 [quartzScheduler_Worker-2] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 2: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 1]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 1]}, status: failed]
+2020-09-01 08:22:34,098 [qtp703618281-50] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:1:3
+2020-09-01 08:22:34,621 [quartzScheduler_Worker-3] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 3: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 127]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 127]}, status: failed]
+2020-09-01 08:50:28,909 [qtp703618281-64] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:1:4
+2020-09-01 08:50:29,419 [quartzScheduler_Worker-4] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 4: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 127]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 127]}, status: failed]
+2020-09-01 09:15:02,286 [qtp703618281-39] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:1:5
+2020-09-01 09:15:02,747 [quartzScheduler_Worker-5] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 5: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 2]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 2]}, status: failed]
+2020-09-01 09:16:29,472 [qtp703618281-39] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:1:6
+2020-09-01 09:16:29,991 [quartzScheduler_Worker-6] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 6: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 2]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 2]}, status: failed]
+2020-09-01 09:20:48,937 [qtp703618281-53] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:1:7
+2020-09-01 09:20:49,403 [quartzScheduler_Worker-7] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 7: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 2]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 2]}, status: failed]
+2020-09-01 09:21:50,008 [qtp703618281-53] INFO  grails.app.services.rundeck.services.ScheduledExecutionService - scheduling immediate job run: TEMP:admin:1:8
+2020-09-01 09:21:50,497 [quartzScheduler_Worker-8] ERROR grails.app.services.rundeck.services.ExecutionUtilService - Execution failed: 8: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.114: NonZeroResultCode: Result code was 2]}, Node failures: {10.10.14.114=[NonZeroResultCode: Result code was 2]}, status: failed]

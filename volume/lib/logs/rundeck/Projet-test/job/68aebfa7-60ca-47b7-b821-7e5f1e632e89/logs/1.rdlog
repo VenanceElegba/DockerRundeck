@@ -1,0 +1,8 @@
+^text/x-rundeck-log-v2.0^
+^2020-09-01T08:18:09Z|stepbegin||{node=10.10.14.114|step=1|stepctx=1|user=admin}|^
+^2020-09-01T08:18:09Z|nodebegin||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|^
+^2020-09-01T08:18:10Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|.^
+^2020-09-01T08:18:10Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|..^
+^2020-09-01T08:18:10Z|nodeend||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|^
+^2020-09-01T08:18:10Z|stepend||{node=10.10.14.114|step=1|stepctx=1|user=admin}|^
+^END^

@@ -1,0 +1,25 @@
+[2020-09-02 10:35:38,288] get directory keys - -
+[2020-09-02 10:37:04,801] create file keys/root-password-venance - [Rundeck-content-size:10, Rundeck-data-type:password, Rundeck-content-mask:content, Rundeck-content-creation-time:2020-09-02T10:37:04Z, Rundeck-auth-created-username:admin, Rundeck-auth-modified-username:admin, Rundeck-content-modify-time:2020-09-02T10:37:04Z, Rundeck-content-type:application/x-rundeck-data-password]
+[2020-09-02 10:37:08,999] get directory keys - -
+[2020-09-02 10:37:41,229] get directory keys/password - -
+[2020-09-02 10:38:55,649] get directory keys - -
+[2020-09-02 10:39:52,111] get directory keys/password - -
+[2020-09-02 10:39:55,366] get directory keys - -
+[2020-09-02 10:40:37,318] get directory keys/password - -
+[2020-09-02 10:40:39,520] get directory keys - -
+[2020-09-02 10:48:15,189] get directory keys - -
+[2020-09-02 10:53:08,428] get directory keys - -
+[2020-09-02 10:54:08,268] get directory keys - -
+[2020-09-02 10:55:37,757] create file keys/pub-key/mypubkey - [Rundeck-content-size:393, Rundeck-key-type:public, Rundeck-content-creation-time:2020-09-02T10:55:37Z, Rundeck-auth-created-username:admin, Rundeck-auth-modified-username:admin, Rundeck-content-modify-time:2020-09-02T10:55:37Z, Rundeck-content-type:application/pgp-keys]
+[2020-09-02 10:55:41,057] get directory keys/pub-key - -
+[2020-09-02 10:56:41,279] get directory keys - -
+[2020-09-02 10:56:47,304] get directory keys/pub-key - -
+[2020-09-02 10:56:52,541] get directory keys - -
+[2020-09-02 10:56:54,764] get directory keys/pub-key - -
+[2020-09-02 12:18:21,933] get directory keys - -
+[2020-09-02 12:18:49,468] create file keys/new-keys/new-keys - [Rundeck-content-size:10, Rundeck-data-type:password, Rundeck-content-mask:content, Rundeck-content-creation-time:2020-09-02T12:18:49Z, Rundeck-auth-created-username:admin, Rundeck-auth-modified-username:admin, Rundeck-content-modify-time:2020-09-02T12:18:49Z, Rundeck-content-type:application/x-rundeck-data-password]
+[2020-09-02 12:18:51,714] get directory keys/new-keys - -
+[2020-09-02 12:19:21,301] get directory keys - -
+[2020-09-02 12:19:24,021] get directory keys/new-keys - -
+[2020-09-02 12:19:32,210] get directory keys - -
+[2020-09-02 12:19:34,309] get directory keys/new-keys - -

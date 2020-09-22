@@ -1,0 +1,15 @@
+2020-07-14 08:11:25,278 [main] INFO  grails.app.conf.BootStrap - Starting Rundeck 2.6.2-1...
+2020-07-14 08:11:25,279 [main] INFO  grails.app.conf.BootStrap - using rdeck.base config property: /var/lib/rundeck
+2020-07-14 08:11:25,288 [main] INFO  grails.app.conf.BootStrap - loaded configuration: /etc/rundeck/framework.properties
+2020-07-14 08:11:25,403 [main] INFO  grails.app.conf.BootStrap - RSS feeds disabled
+2020-07-14 08:11:25,953 [main] INFO  grails.app.conf.BootStrap - Rundeck is ACTIVE: executions can be run.
+2020-07-14 08:16:03,114 [main] INFO  grails.app.conf.BootStrap - Starting Rundeck 2.6.2-1...
+2020-07-14 08:16:03,114 [main] INFO  grails.app.conf.BootStrap - using rdeck.base config property: /var/lib/rundeck
+2020-07-14 08:16:03,123 [main] INFO  grails.app.conf.BootStrap - loaded configuration: /etc/rundeck/framework.properties
+2020-07-14 08:16:03,246 [main] INFO  grails.app.conf.BootStrap - RSS feeds disabled
+2020-07-14 08:16:03,779 [main] INFO  grails.app.conf.BootStrap - Rundeck is ACTIVE: executions can be run.
+2020-07-14 08:20:36,796 [main] INFO  grails.app.conf.BootStrap - Starting Rundeck 2.6.2-1...
+2020-07-14 08:20:36,797 [main] INFO  grails.app.conf.BootStrap - using rdeck.base config property: /var/lib/rundeck
+2020-07-14 08:20:36,806 [main] INFO  grails.app.conf.BootStrap - loaded configuration: /etc/rundeck/framework.properties
+2020-07-14 08:20:36,926 [main] INFO  grails.app.conf.BootStrap - RSS feeds disabled
+2020-07-14 08:20:37,442 [main] INFO  grails.app.conf.BootStrap - Rundeck is ACTIVE: executions can be run.

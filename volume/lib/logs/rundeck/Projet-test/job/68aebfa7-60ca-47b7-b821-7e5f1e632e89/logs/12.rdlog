@@ -1,0 +1,30 @@
+^text/x-rundeck-log-v2.0^
+^2020-09-02T09:57:31Z|stepbegin||{node=10.10.14.114|step=1|stepctx=1|user=admin}|^
+^2020-09-02T09:57:31Z|nodebegin||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|total 2324^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck   14143 Sep  2 09:57 rundeck.access.log^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.access.log.2020-07-13^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck   10425 Jul 14 08:39 rundeck.access.log.2020-07-14^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck  296753 Sep  1 10:49 rundeck.access.log.2020-09-01^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.api.log^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck  413953 Sep  2 09:57 rundeck.audit.log^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.audit.log.2020-07-13^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck  102673 Jul 14 08:39 rundeck.audit.log.2020-07-14^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck 1474111 Sep  1 10:49 rundeck.audit.log.2020-09-01^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck     887 Sep  2 09:57 rundeck.executions.log^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.executions.log.2020-07-13^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck    2019 Sep  1 09:21 rundeck.executions.log.2020-09-01^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck     468 Sep  2 09:57 rundeck.jobs.log^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.jobs.log.2020-07-13^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck     817 Sep  1 09:21 rundeck.jobs.log.2020-09-01^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck    1677 Sep  2 09:57 rundeck.log^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck    1042 Jul 13 22:04 rundeck.log.2020-07-13^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck    1563 Jul 14 08:20 rundeck.log.2020-07-14^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck    4818 Sep  1 09:21 rundeck.log.2020-09-01^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.options.log^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck     848 Sep  1 09:19 rundeck.storage.log^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck       0 Jul 13 21:34 rundeck.storage.log.2020-07-13^
+^2020-09-02T09:57:31Z|||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|-rw-rw-r-- 1 rundeck rundeck     550 Jul 14 08:37 rundeck.storage.log.2020-07-14^
+^2020-09-02T09:57:32Z|nodeend||{node=10.10.14.114|step=1|stepctx=1|user=rundeck}|^
+^2020-09-02T09:57:32Z|stepend||{node=10.10.14.114|step=1|stepctx=1|user=admin}|^
+^END^

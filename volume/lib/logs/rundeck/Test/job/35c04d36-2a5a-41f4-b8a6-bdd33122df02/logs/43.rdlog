@@ -1,0 +1,94 @@
+^text/x-rundeck-log-v2.0^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.114|user=admin}|[workflow] Begin execution: rundeck-workflow-node-first context: null^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.114|user=admin}|preparing for sequential execution on 1 nodes^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.114|user=admin}|Executing command on node: 10.10.14.120, NodeEntryImpl{tags=[], attributes={osFamily=unix, tags=, username=venance, osVersion=3.16.0-4-amd64, osArch=amd64, description=Rundeck server node, hostname=10.10.14.120, nodename=10.10.14.120, osName=Linux}, project='null'}^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.114|user=admin}|NodeSet: MultiNodeSelector{nodenames=[10.10.14.120]}^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.114|user=admin}|Workflow: com.dtolabs.rundeck.core.execution.workflow.StepFirstWorkflowStrategy$stepFirstWrapper@50eb4c6d^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.114|user=admin}|data context:  {node={tags=, username=venance, os-version=3.16.0-4-amd64, description=Rundeck server node, name=10.10.14.120, os-arch=amd64, hostname=10.10.14.120, os-name=Linux, os-family=unix}, job={loglevel=DEBUG, wasRetry=false, url=https://10.10.14.114:4443/project/Test/execution/follow/43, id=35c04d36-2a5a-41f4-b8a6-bdd33122df02, project=Test, username=admin, retryAttempt=0, user.name=admin, name=forsudotest, serverUUID=null, group=null, execid=43, serverUrl=https://10.10.14.114:4443/}, option={}}^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|[workflow] Begin step: 1,NodeDispatch^
+^2020-09-22T09:06:17Z|stepbegin||{node=10.10.14.114|step=1|stepctx=1|user=admin}|^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|1: Workflow step executing: com.dtolabs.rundeck.execution.ExecutionItemFactory$4@1ef487ba^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|preparing for sequential execution on 1 nodes^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|Executing command on node: 10.10.14.120, NodeEntryImpl{tags=[], attributes={osFamily=unix, tags=, username=venance, osVersion=3.16.0-4-amd64, osArch=amd64, description=Rundeck server node, hostname=10.10.14.120, nodename=10.10.14.120, osName=Linux}, project='null'}^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|[workflow] beginExecuteNodeStep(10.10.14.120): NodeDispatch: com.dtolabs.rundeck.execution.ExecutionItemFactory$4@1ef487ba^
+^2020-09-22T09:06:17Z|nodebegin||{node=10.10.14.120|step=1|stepctx=1|user=venance}|^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Using ssh password storage path: keys/serveur8/serveur8^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Starting SSH Connection: venance@10.10.14.120 (10.10.14.120)^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Set timeout to 0^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Connecting to 10.10.14.120:22^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Connecting to 10.10.14.120 port 22^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Connection established^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Remote version string: SSH-2.0-OpenSSH_6.7p1 Debian-5+deb8u3^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Local version string: SSH-2.0-JSCH-0.1.52^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|CheckKexes: diffie-hellman-group14-sha1,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|CheckSignatures: ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|SSH_MSG_KEXINIT sent^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|SSH_MSG_KEXINIT received^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: server: curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: server: ssh-rsa,ssh-dss,ecdsa-sha2-nistp256,ssh-ed25519^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: server: aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: server: aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: server: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: server: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: server: none,zlib@openssh.com^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: server: none,zlib@openssh.com^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: server: ^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: server: ^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: client: ssh-rsa,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-ctr,aes192-cbc,aes256-ctr,aes256-cbc^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-ctr,aes192-cbc,aes256-ctr,aes256-cbc^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: client: none^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: client: none^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: client: ^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: client: ^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: server->client aes128-ctr hmac-sha1 none^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|kex: client->server aes128-ctr hmac-sha1 none^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|SSH_MSG_KEXDH_INIT sent^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|expecting SSH_MSG_KEXDH_REPLY^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|ssh_rsa_verify: signature true^
+^2020-09-22T09:06:17Z||WARN|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Permanently added '10.10.14.120' (RSA) to the list of known hosts.^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|SSH_MSG_NEWKEYS sent^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|SSH_MSG_NEWKEYS received^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|SSH_MSG_SERVICE_REQUEST sent^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|SSH_MSG_SERVICE_ACCEPT received^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Authentications that can continue: publickey,password,keyboard-interactive^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Next authentication method: publickey^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Authentications that can continue: password,keyboard-interactive^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Next authentication method: password^
+^2020-09-22T09:06:17Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Authentication succeeded (password).^
+^2020-09-22T09:06:17Z|||{node=10.10.14.120|step=1|stepctx=1|user=venance}|Sys. de fichiers Taille Utilis?? Dispo Uti% Mont?? sur^
+^2020-09-22T09:06:17Z|||{node=10.10.14.120|step=1|stepctx=1|user=venance}|/dev/sda1          128G    110G   13G  91% /^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|su??: option invalide -- 'y'^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Syntaxe??: su [options] [IDENTIFIANT]^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Options??:^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|  -c, --command COMMANDE        passer la commande COMMANDE ??^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|                                l'interpr??teur de commande appel????;^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|  -h, --help                    afficher ce message d'aide et quitter??;^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|  -, -l, --login                utiliser un interpr??teur de commandes^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|                                initial (????login shell????)??;^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|  -m, -p,^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|  --preserve-environment        ne pas r??initialiser les variables^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|                                d'environnement et conserver le m??me^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|                                interpr??teur de commandes??;^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|  -s, --shell SHELL             utiliser SHELL comme interpr??teur de^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|                                commandes ?? la place de celui d??fini^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|                                par d??faut dans le fichier passwd.^
+^2020-09-22T09:06:17Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|^
+^2020-09-22T09:06:18Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Disconnecting from 10.10.14.120 port 22^
+^2020-09-22T09:06:18Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Remote command failed with exit status 2^
+^2020-09-22T09:06:18Z||ERROR|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Failed: NonZeroResultCode: Remote command failed with exit status 2^
+^2020-09-22T09:06:18Z||VERBOSE|{node=10.10.14.120|step=1|stepctx=1|user=venance}|Caught an exception, leaving main loop due to Socket closed^
+^2020-09-22T09:06:18Z|nodeend||{executionState=FAILED|failureReason=NonZeroResultCode|node=10.10.14.120|resultCode=2|step=1|stepctx=1|user=venance}|Remote command failed with exit status 2^
+^2020-09-22T09:06:18Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|[workflow] finishExecuteNodeStep(10.10.14.120): NodeDispatch: NonZeroResultCode: Remote command failed with exit status 2^
+^2020-09-22T09:06:18Z||VERBOSE|{node=10.10.14.114|step=1|stepctx=1|user=admin}|1: Workflow step finished, result: Dispatch failed on 1 nodes: [10.10.14.120: NonZeroResultCode: Remote command failed with exit status 2]^
+^2020-09-22T09:06:18Z|stepend||{executionState=FAILED|failedNodes=10.10.14.120|failureReason=NodeDispatchFailure|node=10.10.14.114|step=1|stepctx=1|user=admin}|Node dispatch failed^
+^2020-09-22T09:06:18Z||VERBOSE|{node=10.10.14.114|user=admin}|[workflow] Finish step: 1,NodeDispatch^
+^2020-09-22T09:06:18Z||VERBOSE|{node=10.10.14.114|user=admin}|[workflow] Finish execution:  rundeck-workflow-node-first: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: NonZeroResultCode: Remote command failed with exit status 2]}, Node failures: {10.10.14.120=[NonZeroResultCode: Remote command failed with exit status 2]}, status: failed]^
+^2020-09-22T09:06:18Z||VERBOSE|{node=10.10.14.114|user=admin}|[Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: NonZeroResultCode: Remote command failed with exit status 2]}, Node failures: {10.10.14.120=[NonZeroResultCode: Remote command failed with exit status 2]}, status: failed]^
+^2020-09-22T09:06:18Z||ERROR|{node=10.10.14.114|user=admin}|Execution failed: 43: [Workflow result: , step failures: {1=Dispatch failed on 1 nodes: [10.10.14.120: NonZeroResultCode: Remote command failed with exit status 2]}, Node failures: {10.10.14.120=[NonZeroResultCode: Remote command failed with exit status 2]}, status: failed]^
+^END^

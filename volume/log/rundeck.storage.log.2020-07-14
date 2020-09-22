@@ -1,0 +1,4 @@
+[2020-07-14 08:35:23,471] create file keys/password/my-password - [Rundeck-content-size:10, Rundeck-data-type:password, Rundeck-content-mask:content, Rundeck-content-creation-time:2020-07-14T08:35:23Z, Rundeck-auth-created-username:admin, Rundeck-auth-modified-username:admin, Rundeck-content-modify-time:2020-07-14T08:35:23Z, Rundeck-content-type:application/x-rundeck-data-password]
+[2020-07-14 08:35:27,710] get directory keys/password - -
+[2020-07-14 08:37:51,765] get directory keys - -
+[2020-07-14 08:37:55,115] get directory keys/password - -
